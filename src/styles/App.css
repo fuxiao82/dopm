@@ -1,0 +1,49 @@
+/* Base Application Styles */
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background-color: red;
+}
+
+
+body {
+  color: #fff;
+  background: #222;
+  font-family: gotham, helvetica, arial, sans-serif;
+}
+
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
+
+
+.ant-layout,
+.ant-spin-nested-loading{
+
+}
+.ant-spin-container {
+  display: flex;
+  flex-direction: column;
+}
+.ant-layout-content {
+  flex: 1;
+}
+.ant-layout-header {
+  flex: 0 0 64px;
+}
+
+
